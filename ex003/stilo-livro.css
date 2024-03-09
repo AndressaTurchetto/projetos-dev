@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: #f5f5f5;
+    --cor2: #d5d5d5;
+    --cor3: green;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -9,12 +15,12 @@ body {
 }
 
 div {
-    background-color: #f5f5f5;
+    background-color: var(--cor1);
     padding: 30px;
 }
 
 .container1, .container2, .container3, .container4 {
-    border: 1px solid #d5d5d5;
+    border: 1px solid var(--cor2);
     margin-bottom: 10px;
 }
 
@@ -46,8 +52,8 @@ span {
 }
 
 a {
-    background-color: green;
-    color: white;
+    background-color: var(--cor3);
+    color: var(--cor1);
     text-decoration: none;
     font-weight: bolder;
     border-radius: 20px;
