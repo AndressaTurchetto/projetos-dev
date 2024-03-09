@@ -5,11 +5,17 @@ body {
     margin: 0;
     font-family: 'tahoma', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    overflow-x: hidden;
 }
 
 div {
     background-color: #f5f5f5;
-    padding: 50px;
+    padding: 30px;
+}
+
+.container1, .container2, .container3, .container4 {
+    border: 1px solid #d5d5d5;
+    margin-bottom: 10px;
 }
 
 img {
@@ -22,9 +28,31 @@ h2 {
 
 h3 {
     font-size: 20px;
+    font-family: 'tahoma';
 }
 
 p {
+    white-space: inherit;    
     font-weight: 28px;
     width: 930px;
+    margin: auto;
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+span {
+    font-weight: bolder;
+}
+
+a {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 20px;
+    position: absolute;
+    font-size: 14px;
+    padding: 8px;
+    width: 100px;
 }
