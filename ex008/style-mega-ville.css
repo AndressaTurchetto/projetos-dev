@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+div {
+    width: 600px;
+    margin: 10px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
