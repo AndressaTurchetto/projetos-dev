@@ -1,7 +1,33 @@
 @charset "UTF-8";
 
+:root {
+    --cordestaque: #0aa8f9;
+}
+
 div {
     width: 600px;
     margin: 10px auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+p span {
+    font-weight: bold;
+    color: var(--cordestaque);
 }
