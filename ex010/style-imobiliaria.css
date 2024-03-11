@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+:root {
+    --corfundomenu: ;
+    --corletramenu: ;
+    --fonte: helvetica;
+}
+
+body {
+    text-align: center;
+    font-family: var(--fonte);
+}
+
+menu {
+    background-color: ;
+}
+
+.menu img {
+    width: 180px;
+}
+
+
+/*Fundo branco, titulo preto, subtitulo azul e spam azul*/
+.subtitulo_destaque {
+    color: var();
+    font-weight: normal;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/*Aqui é fundo azul, letras brancas e span amarelo*/
+.container__destaque {
+    background-color: var();
+    color: var();
+}
+
+/*Informação destaque com fundo preto, letras brancas e span amarelo*/
+informacao__destaque {
+    color: var();
+    background-color: var();
+}
