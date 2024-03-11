@@ -3,6 +3,7 @@
 :root {
     --cor1: #dfdfdf;
     --cor2: #fff;
+    --container__destaque: #0291dd;
     --fonte: 'tahoma';
 }
 
@@ -21,7 +22,7 @@ h2 {
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 0;
-    color: blue;
+    color: var(--container__destaque);
 }
 
 h3 {
@@ -36,7 +37,7 @@ p {
     margin-bottom: 0;
 }
 
-.topo {
+.container__topo {
     margin: 0 auto;
     background: var(--cor1);
     padding-top: 15px;
@@ -48,6 +49,24 @@ p {
     background-color: var(--cor2);
 }
 
-.paragrafo__destaque {
-    color: blue;
+.container, .container__destaque {
+    width: 650px;
+    margin: 20px auto 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container__destaque {
+    color: var(--cor2);
+    background-color: var(--container__destaque);
+}
+
+.bandeira {
+    width: 30px;
+}
+
+footer {
+    width: 350px;
+    margin: 15px auto 0;
+    color: var(--container__destaque);
 }
