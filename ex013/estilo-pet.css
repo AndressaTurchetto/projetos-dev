@@ -6,6 +6,7 @@
     --cor-letra: #3c184e;
     --cor-sombra: #0000005c;
     --cor-transparente: #ffffffc4;
+    --cor-sombra-banner: #1f26875e;
 }
 
 /* === Estilos globais === */
@@ -22,56 +23,80 @@ body {
     padding-bottom: 30px;
 }
 
-/* === Estilos link === */
-
-a {
-    text-decoration: none;
-    background: var(--cordestaque);
-    color: var(--letra-fundo-destaque);
-    padding: 5px;
-    border-radius: 5px;
-    color: var(--letra-branca);
-}
-
-/* === Estilos span === */
-
-span {
-    font-weight: 700;
-    font-style: italic;
-}
-
+/* === Estilos Banner - Imagem de fundo === */
 .banner {
     background-image: url(img/banner-topo.jpg);
-    background-repeat: no-repeat;
-    color: var(--cordestaque);
     width: 100%;
     background-size: cover;
-    background-position: center bottom;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--cordestaque);
+    padding-bottom: 120px;
+    padding-top: 120px;
+    padding: 80px;
 }
 
+/* === Estilos Logo === */
 .logo {
     width: 250px;
     padding: 0;
 }
 
 .logo img {
-    width: 15px;
+    width: 30px;
 }
 
-.logo p {
-    margin: 0;
+.paragrafo__titulo {
+    margin-bottom: 5px;
+    font-size: 30px;
 }
 
 .container {
-    box-shadow: 5px 5px 5px var(--cor-sombra);
-    border-radius: 10px;
-    width: 600px;
-    margin: 0 auto;
+    box-shadow: 0 8px 32px var(--cor-sombra-banner);
+    border-radius: 5px;
+    width: 800px;
     background-color: var(--cor-transparente);
-    opacity: ;
-    padding-bottom: 120px;
-    padding-top: 120px;
-    padding: 80px;
+    padding: 40px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.container img {
+    width: 20px;
+}
+
+a {
+    width: 200px;
+    text-decoration: none;
+    background: var(--cordestaque);
+    color: var(--letra-fundo-destaque);
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: var(--letra-branca);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+/* === Estilos link Whatsapp === */
+
+
+
+/* === Estilos span === */
+span {
+    font-weight: 700;
+    font-style: italic;
 }
 
 h2 {
