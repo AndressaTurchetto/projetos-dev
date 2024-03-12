@@ -87,20 +87,72 @@ h1 {
     margin-top: 0;
     margin-right: 0;
     margin-left: 0;
-
 }
-/* === Estilos link Whatsapp === */
 
+.servicos {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
 
+h2 {
+    color: var(--cor-letra);
+    font-weight: 36px;
+    margin-bottom: 45px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
 
-/* === Estilos span === */
+ul {
+    width: 800px;
+    text-align: justify;
+    padding: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: var(--cor-letra);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 0;
+    list-style-type: square;
+}
+
+li {
+    font-size: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
 span {
     font-weight: 700;
     font-style: italic;
 }
 
-h2 {
-    color: var(--cor-letra);
+.servicos img {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px rgba(0, 0, 0, 0.36)
+}
+
+.redes-sociais {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 120px;
+    margin-top: 120;
+    background-color: var(--cordestaque);
+    color: var(--letra-branca);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+
+.redes-socias img {
+    font-size: 20px;
+    width: 200px;
 }
 
 .rodape {
@@ -108,22 +160,9 @@ h2 {
     color: var(--letra-branca);
 }
 
-.redes-sociais {
-    background-color: var(--cordestaque);
-    color: var(--letra-branca);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 22px;
-}
 
-ul {
-    text-align: justify;
-    padding: 70px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 22px;
-    color: var(--cor-letra);
-}
+
+
 
 .localizacao {
     font-size: 22px;
