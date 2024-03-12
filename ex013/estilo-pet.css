@@ -8,55 +8,98 @@
     --cor-transparente: #ffffffc4;
 }
 
+/* === Estilos globais === */
+
 body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
-span {
-    font-weight: 700;
-    font-style: italic;
-}
-
-/* === Estilos globais === */
 .secao {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.banner {
-    color: var(--cordestaque);
-    border: 3px solid black;
-    width: 100%;
-    background-size: cover;
-    padding-bottom: 120px;
-    padding-top: 120px;
-    padding: 80px;
+/* === Estilos link === */
+
+a {
+    text-decoration: none;
+    background: var(--cordestaque);
+    color: var(--letra-fundo-destaque);
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--letra-branca);
 }
 
-.servicos {
+/* === Estilos span === */
+
+span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.banner {
+    background-image: url(img/banner-topo.jpg);
+    background-repeat: no-repeat;
     color: var(--cordestaque);
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.logo {
+    width: 250px;
+    padding: 0;
+}
+
+.logo img {
+    width: 15px;
+}
+
+.logo p {
+    margin: 0;
 }
 
 .container {
-    border: 3px solid black;
+    box-shadow: 5px 5px 5px var(--cor-sombra);
+    border-radius: 10px;
     width: 600px;
-    margin: 50px;
+    margin: 0 auto;
+    background-color: var(--cor-transparente);
     opacity: ;
     padding-bottom: 120px;
     padding-top: 120px;
     padding: 80px;
 }
 
-.container a {
-    background: var(--cordestaque);
-    color: var(--letra-fundo-destaque);
-    padding: 5px;
-    border-radius: 5px;
+h2 {
+    color: var(--cor-letra);
+}
+
+.rodape {
+    background-color: var(--cordestaque);
+    color: var(--letra-branca);
+}
+
+.redes-sociais {
+    background-color: var(--cordestaque);
+    color: var(--letra-branca);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+
+ul {
+    text-align: justify;
+    padding: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    color: var(--cor-letra);
+}
+
+.localizacao {
+    font-size: 22px;
 }
