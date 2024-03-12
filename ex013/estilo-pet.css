@@ -1,8 +1,26 @@
 @charset "UTF-8";
 
+:root {
+    --cordestaque: #3c184e;
+    --letra-branca: #fff;
+    --cor-letra: #3c184e;
+    --cor-sombra: #0000005c;
+    --cor-transparente: #ffffffc4;
+}
+
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-weight: 700;
+    font-style: italic;
 }
 
 /* === Estilos globais === */
@@ -10,4 +28,35 @@ body {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.banner {
+    color: var(--cordestaque);
+    border: 3px solid black;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    padding: 80px;
+}
+
+.servicos {
+    color: var(--cordestaque);
+}
+
+.container {
+    border: 3px solid black;
+    width: 600px;
+    margin: 50px;
+    opacity: ;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    padding: 80px;
+}
+
+.container a {
+    background: var(--cordestaque);
+    color: var(--letra-fundo-destaque);
+    padding: 5px;
+    border-radius: 5px;
 }
