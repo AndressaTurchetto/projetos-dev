@@ -13,10 +13,12 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    text-align: center;
 }
 
 .menu {
     background-color: var(--cor3);
+    text-shadow: 0 8px 32px var(--cor5);
 }
 
 .menu img {
@@ -50,4 +52,22 @@ body, html {
     background-size: cover;
     height: 300%;
     transform-style: preserve-3d;
+  }
+
+
+
+  h1 {
+    color: var(--cor1);
+    text-align: center;
+  }
+
+  h2 {
+    color: var(--cor2);
+  }
+
+  p {
+    color: var(--cor3);
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: justify;
   }
