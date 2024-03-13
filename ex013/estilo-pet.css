@@ -9,7 +9,9 @@
     --cor-sombra-banner: #1f26875e;
 }
 
-/* === Estilos globais === */
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
@@ -23,7 +25,6 @@ body {
     padding-bottom: 30px;
 }
 
-/* === Estilos Banner - Imagem de fundo === */
 .banner {
     background-image: url(img/banner-topo.jpg);
     width: 100%;
@@ -33,17 +34,17 @@ body {
     color: var(--cordestaque);
     padding-bottom: 120px;
     padding-top: 120px;
-    padding: 80px;
+    padding: 1200 80px;
 }
 
-/* === Estilos Logo === */
 .logo {
-    width: 250px;
+    max-width: 250px;
     padding: 0;
 }
 
 .logo img {
     width: 30px;
+    margin-right: 5px;
 }
 
 .paragrafo__titulo {
@@ -52,6 +53,7 @@ body {
 }
 
 .container {
+    max-width: 800px;
     box-shadow: 0 8px 32px var(--cor-sombra-banner);
     border-radius: 5px;
     width: 800px;
@@ -90,11 +92,8 @@ h1 {
 }
 
 .servicos {
-    margin-top: 120px;
-    margin-bottom: 120px;
-    margin-left: 80px;
-    margin-right: 80px;
-    
+    margin: 0 auto 50px;
+    max-width: 800px;
 }
 
 h2 {
@@ -122,10 +121,7 @@ ul {
 
 li {
     font-size: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 20px;
-    margin-top: 0;
+    margin: 0 0 20px;
 }
 
 span {
@@ -139,31 +135,36 @@ span {
 }
 
 .redes-sociais {
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 120px;
-    margin-top: 120;
+    max-width: 800px;
+    margin: 0 auto 50px;
     background-color: var(--cordestaque);
     color: var(--letra-branca);
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 22px;
+    font-size: 40px;
 }
 
-.redes-socias img {
-    font-size: 20px;
-    width: 200px;
+.redes-sociais a {
+    margin: 0 20px;
+}
+
+.imagem-redes-sociais {
+    width: 30px;
+    height: 30px;
+}
+
+.localizacao p {
+    color: var(--cor-letra);
+    font-size: 22px;
+    margin: 0 0 45px;
+}
+
+.localizacao iframe {
+    width: 800px;
+    height: 450px;
 }
 
 .rodape {
     background-color: var(--cordestaque);
     color: var(--letra-branca);
-}
-
-
-
-
-
-.localizacao {
-    font-size: 22px;
 }
