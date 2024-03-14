@@ -9,6 +9,7 @@
     --cor6: #000000;
 
     --fonte1: "Osvald", sans-serif;
+    --fonte2: "Fraunces", sarif;
 }
 
 * {
@@ -37,50 +38,98 @@
 }
 
 .menu a {
+    margin-right: 20px;
     font-family: var(--fonte1);
     font-size: 18px;
-    text-align: right;
+    font-weight: 700;
     text-decoration: none;
     color: var(--cor2);
-    padding: 15px;
+    letter-spacing: 2px;
     text-shadow: 3px 5px 2px var(--cor5);
 }
 
-.primeira-imagem {
-    width: 100%;
-}
-
-.parallax-container {
-    width: 100%;
-    height: 100vh;
-    overflow-x: hidden;
-    perspective: 1px; 
-}
-
-.parallax {
-    background-image: url('img/parallax-imagem1.png');
-    background-attachment: fixed;
+.container__parallax1, .container__parallax2, .container__parallax3, .container__parallax4, .container__parallax5 {
+    position: relative;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 300%;
-    transform-style: preserve-3d;
-  }
+    background-attachment: fixed;
+}
 
+.container__parallax1 {
+    background-image: url(img/parallax-imagem1.png);
+    height: 100vh;
+}
 
-
-  h1 {
+.container__parallax1 h1 {
+    top: 45%;
+    right: 0;
+    left: 0;
+    position: absolute;
     color: var(--cor1);
     text-align: center;
-  }
+    font-family: var(--fonte2);
+    font-size: 100px;
+    font-weight: 400;
+}
 
-  h2 {
-    color: var(--cor2);
-  }
+.container__parallax2 {
+    background-image: url(img/parallax-imagem2.jpg);
+    height: 50vh;
+}
 
-  p {
-    color: var(--cor3);
-    margin-left: 120px;
-    margin-right: 120px;
-    text-align: justify;
-  }
+.container__parallax2 h3, .container__parallax3 h3 {
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: var(--fonte2);
+    text-align: center;
+    color: var(--cor1);
+    background-color: var(--cor3);
+    letter-spacing: 2px;
+}
+
+.container__parallax3 {
+    background-image: url(img/parallax-imagem3.jpg);
+    height: 50vh;
+}
+
+.container__parallax4 {
+    background-image: url(img/parallax-imagem4.png);
+    height: 100vh;
+}
+
+.container__parallax4 h2 {
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 24px;
+    font-family: var(--fonte2);
+    letter-spacing: 5px;
+    text-align: center;
+    color: var(--cor1);
+    background-color: var(--cor3);
+}
+
+.container__parallax5 {
+    background-image: url(img/cafeteria.jpg);
+    height: 100vh;
+}
+
+iframe {
+    position: absolute;
+    top:  23%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
