@@ -9,7 +9,8 @@
     --cor6: #000000;
 
     --fonte1: "Osvald", sans-serif;
-    --fonte2: "Fraunces", sarif;
+    --fonte2: "Fraunces", sans-serif;
+    --fonte3: "Lato", sans-serif;
 }
 
 * {
@@ -123,7 +124,19 @@
 
 .container__parallax5 {
     background-image: url(img/cafeteria.jpg);
-    height: 100vh;
+    height: 85vh;
+}
+
+.container__parallax5 h2 {
+    position: absolute;
+    margin: 0 auto;
+    top: 20%;
+    right: 0;
+    left: 0;
+    font-family: var(--fonte2);
+    text-align: center;
+    letter-spacing: 8px;
+    color: var(--cor1);
 }
 
 iframe {
@@ -132,4 +145,81 @@ iframe {
     left: 0;
     right: 0;
     margin: auto;
+}
+
+.atendimento {
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    font-family: var(--fonte2);
+    list-style: none;
+}
+
+.atendimento li {
+    position: relative;
+}
+
+.atendimento li h3 {
+    margin-bottom: 20px;
+    color: var(--cor1);
+}
+
+.atendimento li div {
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: var(--cor4);
+}
+
+.atendimento li p, .atendimento__destaque {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: var(--fonte2);
+}
+
+.atendimento__destaque {
+    color: var(--cor2);
+}
+
+.atendimento li p {
+    color: var(--cor4);
+}
+
+.footer {
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: var(--fonte3);
+    text-align: center;
+    background-color: var(--cor6);
+    color: var(--cor1);
+}
+
+span {
+    color: var(--cor2);
+}
+
+.footer a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    background-image: url(img/seta-para-cima.png);
+    background-position: center;
+    background-size: cover;
+    background-color: var(--cor2);
+    border-radius: 4px;
 }
