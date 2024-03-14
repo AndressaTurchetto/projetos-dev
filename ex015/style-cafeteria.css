@@ -7,30 +7,43 @@
     --cor4: #ACACAC;
     --cor5: #666;
     --cor6: #000000;
+
+    --fonte1: "Osvald", sans-serif;
 }
 
-body, html {
+* {
     margin: 0;
     padding: 0;
-    height: 100%;
-    text-align: center;
+    box-sizing: border-box;
 }
 
 .menu {
     background-color: var(--cor3);
-    text-shadow: 0 8px 32px var(--cor5);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.menu div {
+    position: absolute;
+    top: 35%;
+    right: 15%;
 }
 
 .menu img {
     width: 100px;
-    padding-left: 200px;
+    left: 15%;
+    position: relative;
 }
 
 .menu a {
+    font-family: var(--fonte1);
+    font-size: 18px;
     text-align: right;
     text-decoration: none;
     color: var(--cor2);
     padding: 15px;
+    text-shadow: 3px 5px 2px var(--cor5);
 }
 
 .primeira-imagem {
