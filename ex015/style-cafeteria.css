@@ -56,6 +56,16 @@
     background-attachment: fixed;
 }
 
+.container__texto {
+    max-width: 1024px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    font-family: var(--fonte3);
+    line-height: 34px;
+    letter-spacing: 1px;
+    color: var(--cor5);
+}
+
 .container__parallax1 {
     background-image: url(img/parallax-imagem1.png);
     height: 100vh;
