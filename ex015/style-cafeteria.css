@@ -61,13 +61,25 @@ menu a {
 }
 
 .container__texto {
-    max-width: 1024px;
-    padding: 0px 20px;
-    margin: 0 auto;
-    font-family: var(--fonte3);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 80px 0px;
     line-height: 34px;
     letter-spacing: 1px;
-    color: var(--cor5);
+    color: var(--cor2);
+    text-align: center;
+}
+
+.container__texto h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: var(--fonte1);
+    color: var(--cor2);
+}
+
+.container__texto p {
+    
 }
 
 .container__parallax1 {
@@ -161,7 +173,7 @@ iframe {
     margin: auto;
 }
 
-#contatos {
+.contatos {
     width: 500px;
     padding: 10px;
     position: absolute;
@@ -172,7 +184,7 @@ iframe {
     background-color: var(--cor3);
 }
 
-#contatos p {
+.contatos p {
     color: var(--cor1);
     font-family: var(--fonte1);
     line-height: 36px;
