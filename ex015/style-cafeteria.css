@@ -19,6 +19,10 @@
     box-sizing: border-box;
 }
 
+menu a {
+
+}
+
 .menu {
     background-color: var(--cor3);
     position: fixed;
@@ -38,7 +42,7 @@
     position: relative;
 }
 
-.menu a {
+.menu div a {
     margin-right: 20px;
     font-family: var(--fonte1);
     font-size: 18px;
@@ -155,6 +159,25 @@ iframe {
     left: 0;
     right: 0;
     margin: auto;
+}
+
+#contatos {
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: var(--cor3);
+}
+
+#contatos p {
+    color: var(--cor1);
+    font-family: var(--fonte1);
+    line-height: 36px;
+    text-shadow: 0 6 8 var(--cor6);
+    text-align: center;
 }
 
 .atendimento {
