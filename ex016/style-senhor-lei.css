@@ -1,13 +1,16 @@
 @charset "UTF-8";
 
 body {
+    font-size: 18px;
     margin: 0;
     font-family: 'Fredoka', sans-serif;
 }
 
 .secao-topo {
     border-bottom: 1px solid #d5d5d5;
-0}
+    background-attachment: f;
+}
+
 
 .secao-largura-limitada {
     width: 800px;
@@ -65,4 +68,16 @@ h1, h2, h3 {
     width: 200px;
     margin: 0 auto;
     border-radius: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+}
+
+footer a {
+    color: aqua;
 }
