@@ -8,10 +8,9 @@
 }
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     font-family: var(--fonte);
-    width: 100%;
 }
 
 .topo {
@@ -24,9 +23,12 @@
 }
 
 .banner {
-    width: calc(100% - 5%);
-    padding: 10px;
-    margin: 20px 35px;
+    width: 90%;
+    text-align: center;
+}
+
+.texto {
+    text-align: center;
 }
     
 .texto p {
@@ -35,7 +37,10 @@
     margin: 20px 35px;
     font-size: 18px;
     text-align: justify;
-    
+}
+
+.texto h2 {
+    text-align: left;
 }
 
 h2 {
@@ -46,6 +51,7 @@ h2 {
 
 .galeria-imagens {
     margin: 20px 35px;
+    text-align: center;
 }
 
 .galeria {
