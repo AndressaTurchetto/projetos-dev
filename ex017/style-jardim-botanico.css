@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+:root {
+    --cor-destaque: #1d6e4d;
+    --cor-branco: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    width: 100%;
+    background-color: var(--cor-destaque);
+}
