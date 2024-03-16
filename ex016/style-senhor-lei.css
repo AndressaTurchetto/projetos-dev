@@ -8,3 +8,45 @@ body {
 .secao-topo {
     border-bottom: 1px solid #d5d5d5;
 0}
+
+.secao-largura-limitada {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.secao-topo p {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.secao-background-capa {
+    min-height: 500px;
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+}
+
+.secao-background-conteudo {
+    text-align: right;
+    padding: 50px 20px;
+}
+
+.secao-conteudo {
+    padding: 50px 20px;
+}
+
+.img-conteudo {
+    width: 250px;
+    height: 180px;
+}
+
+.secao-conteudo span {
+    border-left: 1px solid;
+    padding-left: 10px;  
+    font-size: 20px;
+}
+
