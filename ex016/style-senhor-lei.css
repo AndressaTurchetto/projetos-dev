@@ -50,3 +50,19 @@ h1, h2, h3 {
     font-size: 20px;
 }
 
+.secao-background-divisao {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.secao-background-divisao h3 {
+    font-size: 36px;
+    background-color: #fff;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
