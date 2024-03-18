@@ -29,10 +29,20 @@ nav a {
     background-color: #a30109;
 }
 
-main {
-    width: 100%;
-    max-width: 1024px;
-    min-width: 320px;
-    margin-left: 30px;
-    margin-left: 30px;
+li {
+    display: inline;
+    background-color: #a30109;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 12px;
+}
+
+footer {
+    padding: 15px;
+    color: white;
+    background-color: #cf010b;
 }
