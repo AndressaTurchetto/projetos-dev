@@ -22,6 +22,7 @@ header {
 }
 
 .btn-cabecalho {
+    text-decoration: none;
     border-radius: 15px;
     border: 2px solid black;
     background-color: var(--cor-branca);
@@ -52,4 +53,12 @@ p {
 .conteu-principal img {
     width: 100%;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: var(--cor-topo);
+    color: var(--cor-branca);
+    padding: 20px 0;
 }
