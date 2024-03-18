@@ -63,3 +63,10 @@ a {
     background-color: #25D366;
     border-radius: 25px;
 }
+
+a:hover {
+    background-color: #fff;
+    color: #25D366;
+    width: 30px;
+    height: 30px;
+}

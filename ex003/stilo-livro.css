@@ -19,7 +19,7 @@ div {
     padding: 30px;
 }
 
-.container1, .container2, .container3, .container4 {
+.container1, .container2, .container3, .container4, .container5 {
     border: 1px solid var(--cor2);
     margin-bottom: 10px;
 }
@@ -61,4 +61,31 @@ a {
     font-size: 14px;
     padding: 8px;
     width: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+}
+
+footer a {
+    background-color: #d5d5d5;
+    color: #607274;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+ion-icon {
+    color: #607274;
+    width: 30px;
+    height: 30px;
+}
+
+ion-icon:hover {
+    color: white;
 }
