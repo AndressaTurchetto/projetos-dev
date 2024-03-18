@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-destaque: #f97100;
+    --cor-branco: #fff;
+}
+
+nav {
+    text-align: center;
+    color: white;
+}
