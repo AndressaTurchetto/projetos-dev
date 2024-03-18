@@ -3,14 +3,46 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Helvetica', sans-serif;
 }
 
 :root {
     --cor-destaque: #f97100;
     --cor-branco: #fff;
+    --cor-background: #ffb500;
+    --cor-box-shadow: #ed8317;
 }
 
 nav {
+    padding: 20px;
     text-align: center;
-    color: white;
+    color: var(--cor-branco);
+    background-color: var(--cor-destaque);
+
+}
+
+.area {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+main {
+    width: 100%;
+    max-width: 1024px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+p, h2, h3 {
+    line-height: 25px;
+    text-align: justify;
+}
+
+.card {
+    width: 320px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
 }
