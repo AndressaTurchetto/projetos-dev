@@ -18,6 +18,8 @@ html, body {
 }
 
 .cabecalho, footer {
+    width: 100%;
+    height: 60px;
     text-align: center;
     color: var(--cor-branco);
     background-color: var(--cor-destaque);
@@ -28,17 +30,8 @@ html, body {
     padding: 15px;
 }
 
-.area {
+.banner {
     width: 100%;
-    margin: 0 auto;
-    display: flex;
-}
-
-main {
-    width: 100%;
-    max-width: 1024px;
-    min-width: 320px;
-    margin: 0 auto;
 }
 
 h1 {
@@ -47,9 +40,10 @@ h1 {
     margin: 30px 0;
 }
 
-p, h2, h3 {
-    line-height: 25px;
-    text-align: justify;
+.area {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
 }
 
 .info {
@@ -62,9 +56,64 @@ p, h2, h3 {
     line-height: 30px;
 }
 
+main {
+    width: 100%;
+    max-width: 1024px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: var(--cor-branco);
+    font-size: 29px;
+}
+
 .card {
     width: 320px;
     height: 380px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background-color: var(--cor-background);
+    margin: 0 30px 0 0;
+    border-radius: 12px;
+}
+
+.card-sombra {
+    box-shadow: inset 0 0 15px 12px var(--cor-box-shadow);
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    margin: 15px 0;
+}
+
+.informacoes {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.card ul {
+    font-size: 18px;
+    color: var(--cor-branco);
+    line-height: 32px;
+}
+
+.area-image {
+    overflow-y: scroll;
+    margin: 0 auto 40px auto;
+}
+
+.area-image img {
+    width: 315px;
+    margin: 10px;
+}
+
+.image-sombra {
+    box-shadow: 10px 10px 10px #939393;
+}
+
+.info a {
+    color: blue;
 }
