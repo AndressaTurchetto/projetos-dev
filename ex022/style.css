@@ -101,6 +101,6 @@ footer {
     width: 100%;
     font-size: 16px;
     background-color: var(--cor-topo);
-    color: var(--cor-branca);
+    color: var(--cor-branca);   
     padding: 12px 0;
 }
