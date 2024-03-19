@@ -9,6 +9,10 @@
     --cor-branca: #fff;
 }
 
+html, body {
+    height: 100%;
+}
+
 header {
     width: 100%;
     background-color: var(--cor-topo);
@@ -23,7 +27,9 @@ header {
 
 .btn-cabecalho {
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    
     border: 2px solid black;
     background-color: var(--cor-branca);
     color: var(--cor-topo);
@@ -62,3 +68,15 @@ footer {
     color: var(--cor-branca);
     padding: 20px 0;
 }
+
+.galeria {
+    overflow-y: scroll;
+}
+
+.galeria img {
+    width: 150px;
+    height: 150px;
+    margin: 15px 0;
+    box-shadow: 10px 10px 10px #939393;
+}
+
