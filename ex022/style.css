@@ -18,22 +18,34 @@ header {
     background-color: var(--cor-topo);
     color: var(--cor-branca);
     padding: 20px 0;
+    text-align: center;
     display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .cabecalho {
     font-size: 22px;
+    text-align: center;
+    margin-right: auto; 
+
 }
 
 .btn-cabecalho {
     text-decoration: none;
     border-radius: 20px;
     font-size: 16px;
-    
-    border: 2px solid black;
     background-color: var(--cor-branca);
     color: var(--cor-topo);
+    font-weight: bold;
     margin: 0 30px;
+    padding: 5px 20px;
+}
+
+
+.btn-cabecalho:hover {
+    background-color: var(--cor-topo);
+    color: var(--cor-branca);
 }
 
 .banner {
@@ -58,7 +70,8 @@ p {
 
 .conteu-principal img {
     width: 100%;
-    text-align: center;
+    height: auto;
+    max-width: 400px;
 }
 
 footer {
