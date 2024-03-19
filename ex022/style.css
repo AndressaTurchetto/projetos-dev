@@ -15,13 +15,20 @@ html, body {
 
 header {
     width: 100%;
+    font-size: 22px;
     background-color: var(--cor-topo);
     color: var(--cor-branca);
     padding: 20px 0;
-    text-align: center;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
+}
+
+header div {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header span {
+    margin: 0 30px;
 }
 
 .cabecalho {
@@ -38,8 +45,8 @@ header {
     background-color: var(--cor-branca);
     color: var(--cor-topo);
     font-weight: bold;
-    margin: 0 30px;
-    padding: 5px 20px;
+    margin: 0 6px;
+    padding: 7px 15px;
 }
 
 
@@ -74,22 +81,26 @@ p {
     max-width: 400px;
 }
 
-footer {
-    text-align: center;
-    width: 100%;
-    background-color: var(--cor-topo);
-    color: var(--cor-branca);
-    padding: 20px 0;
-}
-
 .galeria {
-    overflow-y: scroll;
 }
 
 .galeria img {
+    overflow-y: scroll;
+    margin: 0 auto 20px auto;
     width: 150px;
-    height: 150px;
-    margin: 15px 0;
+    margin: 10px;
     box-shadow: 10px 10px 10px #939393;
 }
 
+.informativo { 
+    margin: 15px auto;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    background-color: var(--cor-topo);
+    color: var(--cor-branca);
+    padding: 12px 0;
+}
