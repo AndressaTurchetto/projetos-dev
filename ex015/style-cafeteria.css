@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Cores e fontes */
 :root {
     --cor1: #fff;
     --cor2: #c4a47c;
@@ -13,12 +14,14 @@
     --fonte3: "Lato", sans-serif;
 }
 
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Menu */
 .menu {
     background-color: var(--cor3);
     position: fixed;
@@ -49,6 +52,7 @@
     text-shadow: 3px 5px 2px var(--cor6);
 }
 
+/* Parallax Containers */
 .container__parallax1, .container__parallax2, .container__parallax3, .container__parallax4, .container__parallax5 {
     position: relative;
     background-position: center;
@@ -56,6 +60,7 @@
     background-attachment: fixed;
 }
 
+/* Texto */
 .container__texto {
     font-size: 16px;
     font-weight: 400;
@@ -84,6 +89,7 @@
     color: var(--cor5);
 }
 
+/* Parallax 1 */
 .container__parallax1 {
     background-image: url(img/parallax-imagem1.png);
     height: 100vh;
@@ -101,6 +107,7 @@
     font-weight: 400;
 }
 
+/* Parallax 2 */
 .container__parallax2 {
     background-image: url(img/parallax-imagem2.jpg);
     height: 50vh;
@@ -124,11 +131,13 @@
     letter-spacing: 2px;
 }
 
+/* Parallax 3 */
 .container__parallax3 {
     background-image: url(img/parallax-imagem3.jpg);
     height: 50vh;
 }
 
+/* Parallax 4 */
 .container__parallax4 {
     background-image: url(img/parallax-imagem4.png);
     height: 100vh;
@@ -150,6 +159,7 @@
     background-color: var(--cor3);
 }
 
+/* Parallax 5 */
 .container__parallax5 {
     background-image: url(img/cafeteria.jpg);
     height: 85vh;
@@ -167,6 +177,7 @@
     color: var(--cor1);
 }
 
+/* Iframe*/
 iframe {
     position: absolute;
     top:  23%;
@@ -175,6 +186,7 @@ iframe {
     margin: auto;
 }
 
+/* Contatos */
 .contatos {
     width: 500px;
     padding: 10px;
@@ -194,6 +206,7 @@ iframe {
     text-align: center;
 }
 
+/* Atendimento */
 .atendimento {
     max-width: 768px;
     position: absolute;
@@ -241,6 +254,7 @@ iframe {
     color: var(--cor4);
 }
 
+/* Footer */
 .footer {
     position: relative;
     padding: 20px 0;
@@ -251,10 +265,6 @@ iframe {
     text-align: center;
     background-color: var(--cor6);
     color: var(--cor1);
-}
-
-span {
-    color: var(--cor2);
 }
 
 .footer a {
@@ -269,4 +279,8 @@ span {
     background-size: cover;
     background-color: var(--cor2);
     border-radius: 4px;
+}
+
+span {
+    color: var(--cor2);
 }
