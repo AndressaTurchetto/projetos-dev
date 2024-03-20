@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+body {
+    text-align: center;
+}
+
 .menu {
     width: 100%;
     background-color: black;
@@ -48,8 +52,9 @@ h3 {
 
 p {
     max-width: 600px;
-    text-align: justify;
-    padding: 60px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
 }
 
 iframe {
