@@ -19,10 +19,6 @@
     box-sizing: border-box;
 }
 
-menu a {
-
-}
-
 .menu {
     background-color: var(--cor3);
     position: fixed;
@@ -50,7 +46,7 @@ menu a {
     text-decoration: none;
     color: var(--cor2);
     letter-spacing: 2px;
-    text-shadow: 3px 5px 2px var(--cor5);
+    text-shadow: 3px 5px 2px var(--cor6);
 }
 
 .container__parallax1, .container__parallax2, .container__parallax3, .container__parallax4, .container__parallax5 {
