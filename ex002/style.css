@@ -1,12 +1,12 @@
 @charset "UTF-8";
+
+/* Configurações gerais*/
 body {
     background-color: #f1f1f1;
+    font-family: Verdana;
 }
 
-img {
-    width: 190px;
-}
-
+/* Conteúdo principal */
 div {
     width: 600px;
     margin: 0 auto;
@@ -15,7 +15,6 @@ div {
 
 h1 {
     font-size: 24px;
-    font-family: Verdana;
     color: #606062;
     padding: 10px;
     border: 5px solid #606062;
@@ -48,13 +47,16 @@ p {
     margin-bottom: 35px;
 }
 
+img {
+    width: 190px;
+}
+
 span {
     font-weight: bold;
 }
 
 a {
     font-size: 16px;
-    font-family: 'Verdana';
     font-weight: bold;
     text-decoration: none;
     padding: 10px 15px;
@@ -69,4 +71,10 @@ a:hover {
     color: #25D366;
     width: 30px;
     height: 30px;
+}
+
+footer p {
+    padding: 15px;
+    text-align: center;
+    margin-top: 15px;
 }
