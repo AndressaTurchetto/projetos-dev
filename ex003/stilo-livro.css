@@ -1,68 +1,63 @@
 @charset "UTF-8";
 
+/* Cores */
 :root {
     --cor1: #f5f5f5;
     --cor2: #d5d5d5;
     --cor3: green;
+    --cor4: #607274;
 }
 
+/* Configurações gerais*/
 body {
-    padding: 0;
     margin: 0;
     font-family: 'tahoma', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    overflow-x: hidden;
 }
 
+/* Conteúdo principal */
 div {
+    text-align: center;
+    border-top: 1px solid var(--cor2);
     background-color: var(--cor1);
-    padding: 30px;
+    padding: 50px;
 }
 
-.container1, .container2, .container3, .container4, .container5 {
-    border: 1px solid var(--cor2);
-    margin-bottom: 10px;
+h1 {
+    text-align: center;
+    margin-top: 0;
 }
 
-img {
-    width: 190px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-h3 {
-    font-size: 20px;
-    font-family: 'tahoma';
+h2, h3 {
+    text-align: center;
 }
 
 p {
-    white-space: inherit;    
     font-weight: 28px;
-    width: 930px;
-    margin: auto;
-    padding: 20px;
-    font-size: 18px;
-    text-align: justify;
+    margin: 15px auto 30px auto;
+    text-align: center;
 }
 
 span {
     font-weight: bolder;
 }
 
+/* Imagens */
+img {
+    width: 190px;
+}
+
+/* Links*/
 a {
     background-color: var(--cor3);
     color: var(--cor1);
+    font-size: 14px;
     text-decoration: none;
     font-weight: bolder;
-    border-radius: 20px;
-    position: absolute;
-    font-size: 14px;
-    padding: 8px;
-    width: 100px;
+    border-radius: 25px;
+    padding: 10px 30px;
 }
 
+/* Rodapé */
 footer {
     text-align: center;
     padding: 1px;
@@ -70,18 +65,17 @@ footer {
 
 footer a {
     background-color: #d5d5d5;
-    color: #607274;
+    color: var(--cor4);
     width: 30px;
     height: 30px;
     margin-left: 10px;
+    display: inline-block;
+    transition: background-color 0.3s;
 }
 
-span {
-    font-weight: bold;
-}
-
+/* Icones */
 ion-icon {
-    color: #607274;
+    color: var(--cor4);
     width: 30px;
     height: 30px;
 }
