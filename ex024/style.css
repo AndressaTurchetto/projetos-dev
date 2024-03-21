@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-image: url(img/fundo-floresta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Helvetica', sans-serif;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+main p {
+    padding: 5px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-weight: normal;
+}
