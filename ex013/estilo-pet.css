@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Configuração Global */
 :root {
     --cordestaque: #3c184e;
     --letra-branca: #fff;
@@ -10,137 +11,133 @@
 }
 
 * {
-    box-sizing: border-box;
-}
-
-body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
-}
-
-.secao {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.banner {
-    background-image: url(img/banner-topo.jpg);
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: var(--cordestaque);
-    padding-bottom: 120px;
-    padding-top: 120px;
-    padding: 1200 80px;
-}
-
-.logo {
-    max-width: 250px;
-    padding: 0;
-}
-
-.logo img {
-    width: 30px;
-    margin-right: 5px;
-}
-
-.paragrafo__titulo {
-    margin-bottom: 5px;
-    font-size: 30px;
+    text-decoration: none;
 }
 
 .container {
-    max-width: 800px;
-    box-shadow: 0 8px 32px var(--cor-sombra-banner);
-    border-radius: 5px;
-    width: 800px;
-    background-color: var(--cor-transparente);
-    padding: 40px;
-    margin-top: 40px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 0;
+    padding: 120px 80px;
 }
 
-.container img {
-    width: 20px;
-}
-
-a {
-    width: 200px;
-    text-decoration: none;
-    background: var(--cordestaque);
-    color: var(--letra-fundo-destaque);
-    padding: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 5px;
-    font-size: 20px;
-    color: var(--letra-branca);
-}
-
-h1 {
-    font-size: 60px;
-    font-weight: 800;
-    margin-bottom: 40px;
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.servicos {
-    margin: 0 auto 50px;
-    max-width: 800px;
-}
-
-h2 {
-    color: var(--cor-letra);
-    font-weight: 36px;
-    margin-bottom: 45px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
-
-ul {
-    width: 800px;
-    text-align: justify;
-    padding: 70px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: var(--cor-letra);
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-top: 0;
-    list-style-type: square;
-}
-
-li {
-    font-size: 20px;
-    margin: 0 0 20px;
-}
-
-span {
+.destaque {
     font-weight: 700;
     font-style: italic;
 }
 
-.servicos img {
-    border-radius: 5px;
-    box-shadow: 3px 6px 10px 6px rgba(0, 0, 0, 0.36)
+h3 {
+    color: var(--cor-letra);
+    font-weight: 36px;
+    margin: 0 0 45px;
+    text-align: center;
 }
 
-.redes-sociais {
+/* Banner */
+
+
+.banner-topo {
+    background-image: url(img/banner-topo.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-nome-logo {
+    max-width: 250px;
+    color: var(--cordestaque);
+}
+
+.container-nome-logo img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.container-nome-logo .nome-pet-shop {
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+.container-nome-logo .slogan-pet-shop {
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+.container-nome-logo .slogan-pet-shop {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.container-titulo-topo {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background: var(--cor-transparente);
+    box-shadow: 0 8px 32px var(--cor-sombra-banner);
+}
+
+.titulo-topo {
+    font-size: 60px;
+    color: var(--cordestaque);
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px;
+}
+
+.link-fale-conosco {
+    text-align: center;
+    width: 200px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: var(--cordestaque);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.link-fale-conosco a {
+    color: var(--letra-branca);
+}
+
+.container-titulo-topo img {
+    width: 20px;
+}
+
+/* Nossos Serviços*/
+    padding: 40px;
+.box-servicos {
+    max-width: 800px;
+    color: #3c184e;
+    margin: 0 auto 50px;
+}
+
+.box-servicos li {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.box-servicos-img {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-servicos-img img {
+    box-shadow: 3px 6px 10px 6px var(--cor-sombra);
+    border-radius: 5px;
+}
+
+.faixa {
+    background-color: var(--cordestaque);
+    text-align: center;
+}
+
+.text-faixa {
     max-width: 800px;
     margin: 0 auto 50px;
-    background-color: var(--cordestaque);
     color: var(--letra-branca);
-    padding-top: 30px;
-    padding-bottom: 30px;
     font-size: 40px;
 }
 
@@ -148,23 +145,46 @@ span {
     margin: 0 20px;
 }
 
-.imagem-redes-sociais {
-    width: 30px;
-    height: 30px;
+.redes-sociais img {
+    width: 50px;
+    height: 50px;
 }
 
-.localizacao p {
-    color: var(--cor-letra);
-    font-size: 22px;
+/* Marcas */
+.container-marcas {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo-marca {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+/* Onde estamos */
+.onde-estamos {
+    text-align: center;
+}
+
+.onde-estamos p {
+    color: #3c184e;
+    font-size: 20px;
     margin: 0 0 45px;
 }
 
-.localizacao iframe {
+.onde-estamos iframe {
     width: 800px;
     height: 450px;
 }
 
+/* Rodapé */
 .rodape {
-    background-color: var(--cordestaque);
-    color: var(--letra-branca);
+    background-color: #3c184e;
+    padding: 10px 0;
+}
+.text-rodape {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
 }
