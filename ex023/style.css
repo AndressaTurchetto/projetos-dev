@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: #fff;
+    --cor2: #f1f3f7;
+    --cor3: #f6f6f6;
+    --cor4: #a89f9f;
+    --cor5: #233032;
+    --cor6: #2f86d6;
+    --cor-box-shadow: rgba(47, 134, 214, 1);
+}
+
+header {
+    max-width: 1024px;
+    padding: 35px 0px;
+}
+
+.banner {
+    padding: 180px 0;
+}
+
