@@ -83,3 +83,17 @@ ion-icon {
 ion-icon:hover {
     color: white;
 }
+
+@media (max-width: 768px) {
+    div {
+        padding: 20px;
+    }
+
+    imag {
+        max-width: 100%
+    }
+
+    p {
+        font-size: calc(1em + 0.5vw)
+    }
+}

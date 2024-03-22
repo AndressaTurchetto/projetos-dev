@@ -7,7 +7,6 @@
     --fonte: Verdana;
 }
 
-
 div {
     width: 600px;
     margin: 25px auto;
@@ -65,3 +64,13 @@ footer {
     color: var(--cor2);
     font-family: Helvetica;
 }
+
+@media (max-width: 768px) {
+    div {
+      padding: 15px;
+    }
+    
+    h1 {
+      font-size: 1.2em;
+    }
+  }

@@ -78,3 +78,17 @@ footer p {
     text-align: center;
     margin-top: 15px;
 }
+
+@media (max-width: 768px) {
+    div {
+        width: 100%;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+
+    h1, h2, h3, p {
+        font-size: calc(1em + 0.5vw);
+    }
+}

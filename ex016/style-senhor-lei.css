@@ -1,16 +1,15 @@
 @charset "UTF-8";
 
+/* Configurações gerais*/
 body {
-    font-size: 18px;
     margin: 0;
     font-family: 'Fredoka', sans-serif;
 }
 
+/* Topo*/
 .secao-topo {
     border-bottom: 1px solid #d5d5d5;
-    background-attachment: f;
 }
-
 
 .secao-largura-limitada {
     width: 800px;
@@ -27,6 +26,7 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
+/* Seção inicial com imagem de fundo*/
 .secao-background-capa {
     min-height: 500px;
     background-image: url(img/capa.jpg);
@@ -38,6 +38,7 @@ h1, h2, h3 {
     padding: 50px 20px;
 }
 
+/* Seção conteúdo */
 .secao-conteudo {
     padding: 50px 20px;
 }
@@ -53,6 +54,7 @@ h1, h2, h3 {
     font-size: 20px;
 }
 
+/* Seção com imagem de fundo e texto */
 .secao-background-divisao {
     padding: 50px 0;
     text-align: center;
@@ -70,6 +72,7 @@ h1, h2, h3 {
     border-radius: 20px;
 }
 
+/* Seção rodapé */
 footer {
     background-color: black;
     color: white;
@@ -81,3 +84,17 @@ footer {
 footer a {
     color: aqua;
 }
+
+@media (max-width: 768px) {
+    .secao-largura-limitada {
+      max-width: 100%;
+    }
+    
+    .secao-conteudo, .img-conteudo {
+      width: 100%;
+    }
+    
+    .secao-background-divisao h3 {
+      width: 80%;
+    }
+  }

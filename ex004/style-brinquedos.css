@@ -50,3 +50,13 @@ footer {
     line-height: 28px;
     font-family: var(--fonte-primaria);
 }
+
+@media (max-width: 768px) {
+    div {
+      padding: 15px;
+    }
+    
+    h1, h2, p {
+      font-size: calc(1em + 0.5vw);
+    }
+  }
