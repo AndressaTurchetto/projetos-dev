@@ -67,3 +67,34 @@ div footer {
     font-weight: bold;
     color: var(--cordestaque);
 }
+
+@media (max-width: 768px) {
+    div {
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .banner {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .texto__destaque {
+        font-size: 14px;
+    }
+
+    .conteudo {
+        margin-top: 20px;
+    }
+}
