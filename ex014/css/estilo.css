@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #000;
+    --cor2: #d59600;
+    --cor3: #d5960054;
+    --cor4: #1d1d1d;
+    --cor5: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+
+/* === Estilos globais === */
+.secao {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-weight: normal;
+    color: var(--cor1);
+    margin-top: 0;
+}
+
+h3 {
+    color: var(--cor1);
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.paragrafo {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
+}
+
+.imagem {
+    width: 450px;
+}
+
+/* ===  estilos para destaques === */
+.texto-amarelo {
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+/* ===  1ª seção === */
+.topo {
+    width: 100%;
+    background-color: var(--cor1);
+    border-bottom: 1px solid var(--cor3);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+}
+
+h1 {
+    color: var(--cor2);
+    margin-bottom: 5px;
+}
+
+.paragrafo-topo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.link-topo {
+    color: var(--cor2);
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid var(--cor2);
+}
+
+/* ===  2ª seção === */
+.banner {
+    padding-top: 0;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+/* ===  3ª e 4ª seção ===
+    Todos os estilos usados nestas seções são estilos globais
+*/
+
+/* ===  5ª seção === */
+.paragrafo-contato {
+    text-align: center;
+    color: var(--cor5);
+    background-color: var(--cor4);
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.link {
+    text-decoration: none;
+    border-bottom: 2px solid var(--cor2);
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+footer span {
+    font-weight: bold;
+}
