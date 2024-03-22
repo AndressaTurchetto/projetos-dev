@@ -117,3 +117,15 @@ footer a {
         text-decoration: none;
     }
 }
+
+@media (max-width: 600px) {
+    header nav {
+        display: block;
+        text-align: center;
+    }
+
+    header nav a {
+        display: block;
+        padding: 10px 0;
+    }
+}
