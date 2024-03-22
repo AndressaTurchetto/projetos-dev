@@ -284,18 +284,3 @@ iframe {
 span {
     color: var(--cor2);
 }
-
-@media screen and (max-width: 768px) {
-    .menu div {
-        top: 10%;
-        right: 5%;
-    }
-
-    .menu img {
-        width: 80%;
-    }
-
-    .container__parallax1, .container__parallax2, .container__parallax3, .container__parallax4, .container__parallax5 {
-        background-size: cover;
-    }
-}
