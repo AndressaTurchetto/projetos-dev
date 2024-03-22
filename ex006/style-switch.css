@@ -70,3 +70,30 @@ footer {
     margin: 15px auto 0;
     color: var(--container__destaque);
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .container, .container__destaque {
+        width: 90%;
+        max-width: 90%;
+    }
+
+    footer {
+        max-width: 90%;
+    }
+}
