@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Quilômetros para Anos-Luz</h1>
+        <form action="">
+            <label for="distancia">Distância em quilômetros:</label>
+            <input type="number" id="distancia" placeholder="Digite a distância em quilômetros">
+            <label for="velocidade">Velocidade da viagem em km/ano-luz:</label>
+            <input type="number" id="velocidade" placeholder="Digite a velocidade da viagem em km/ano-luz">
+            <button onclick="calcularTempo()">Calcular</button>
+            <div class="result" id="resultado"></div>
+                </div>
+        </form>
+
+    <script>
+        function converterQuilometrosParaAnosLuz(quilometros, quilometrosPorAnoLuz) {
+            return quilometros / quilometrosPorAnoLuz;
+        }
+
+        function calcularTempo() {
+            var distanciaEmQuilometros = parseFloat(document.getElementById('distancia').value);
+            var velocidadeEmQuilometrosPorAnoLuz = parseFloat(document.getElementById('velocidade').value);
+
+            var distanciaEmAnosLuz = converterQuilometrosParaAnosLuz(distanciaEmQuilometros, velocidadeEmQuilometrosPorAnoLuz);
+            var tempoNecessario = distanciaEmAnosLuz / velocidadeEmQuilometrosPorAnoLuz;
+
+            document.getElementById('resultado').innerHTML =
+                "A distância de " + distanciaEmQuilometros + " quilômetros é equivalente a aproximadamente " +
+                distanciaEmAnosLuz.toFixed(3) + " anos-luz.<br>" +
+                "Com uma velocidade de " + velocidadeEmQuilometrosPorAnoLuz +
+                " quilômetros por ano-luz, levaria cerca de " + tempoNecessario.toFixed(3) + " anos para viajar.";
+        }
+    </script>
+</body>
+</html>
