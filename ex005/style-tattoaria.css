@@ -57,3 +57,9 @@ footer {
 footer img {
     width: 40px;
 }
+
+a{
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+}
