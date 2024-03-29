@@ -1,7 +1,10 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: helvetica, sans-serif;
 }
 
 .topo {
@@ -37,9 +40,24 @@ h2 {
     min-height: 200px;
     background-repeat: no-repeat;
     background-position: top;
-    padding: 100px;
 }
 
 .conteudo {
+    margin: 0 auto;
+    padding: 50px 20px;
+}
 
+.conteudo img {
+    width: 200px;
+    height: 250px;
+}
+
+p {
+    line-height: 26px;
+}
+
+span {
+    background-color: #f00;
+    color: white;
+    padding: 10px 25px;
 }
