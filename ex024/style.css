@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.topo {
+    background-image: url(img/capa.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 600px;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+h1,h2 {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 300px;
+}
+
+h1 {
+    background-color: black;
+}
+
+h2 {
+    background-color: red;
+}
+
+.segunda-imagem {
+    background-image: url(img/img1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 100px;
+}
+
+.conteudo {
+
+}
