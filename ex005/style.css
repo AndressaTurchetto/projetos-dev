@@ -12,7 +12,7 @@
 .topo {
     width: 100%;
     padding: 15px 0px;
-    font-size: 18px;
+    text-align: center;
 }
 
 .topo span {
@@ -30,8 +30,8 @@
 .container {  
     max-width: 1024px;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
     gap: 40px;
 }
 
@@ -41,8 +41,9 @@
     box-shadow: 1px 1px 10px 1px gray;
 }
 
-.container-imagem {
-    height: 200px;
+.container-img {
+    height: 250px;
+    border: 1px solid red;
 }
 
 .container-imagem img {
