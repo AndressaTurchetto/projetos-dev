@@ -28,40 +28,49 @@
 
 /* Configurações topo*/
 .container-topo {
-    position: relative;
-    padding: 35px 0px;
+    background-color: var(--cor1);
+    padding: 35px 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .topo-logo {
-    position: relative;
-}
-
-.topo-logo img {
-    width: 80px;
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .topo-logo div {
-    position: absolute;
-    top: 0;
-    left: 95px;
+    height: 100px;
+    width: 100%;
+}
+
+.topo-logo img {
+    height: 100px;
+    width: 100%;
 }
 
 .topo-logo p {
     color: var(--cor6);
     font-weight: 600;
+    font-size: 12px;
 }
 
 .topo-links {
-    position: absolute;
-    top: 65px;
-    right: 0;
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .topo-links a {
-    font-size: 18px;
-    padding: 0px 10px;
-    text-decoration: none;
     font-weight: 600;
+    text-decoration: none;
     color: var(--cor5);
 }
 
