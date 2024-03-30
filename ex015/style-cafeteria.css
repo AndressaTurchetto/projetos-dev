@@ -161,7 +161,9 @@
 
 /* Parallax 5 */
 .container__parallax5 {
-    padding: 100px 20px;
+    font-family: var(--fonte2);
+    color: var(--cor1);
+    padding: 140px 20px;
     background-image: url(img/cafeteria.jpg);
     background-position: center;
     background-size: cover;
@@ -171,15 +173,7 @@
 }
 
 .container__parallax5 h2 {
-    position: absolute;
-    margin: 0 auto;
-    top: 20%;
-    right: 0;
-    left: 0;
-    font-family: var(--fonte2);
-    text-align: center;
-    letter-spacing: 8px;
-    color: var(--cor1);
+    margin-bottom: 30px;
 }
 
 /* Iframe*/
@@ -219,33 +213,28 @@ iframe {
 .atendimento li {
     list-style: none;
     margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .atendimento li div {
     height: 1px;
     background-color: var(--cor4);
+    flex: 1 1 auto;
 }
     
-
 .atendimento li h3 {
-    color: var(--cor1);
+    flex: 0 1 80px;
 }
 
 
-.atendimento li p, .atendimento__destaque {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-weight: 700;
-    font-family: var(--fonte2);
+.atendimento li span, p {
+    flex: 0 1 100px;
 }
 
-.atendimento__destaque {
+span {
     color: var(--cor2);
-}
-
-.atendimento li p {
-    color: var(--cor4);
 }
 
 /* Footer */
