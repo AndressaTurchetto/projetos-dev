@@ -7,13 +7,12 @@
     background-color: #f0f0f0;
 }
 
-.container {
-    
+.container {  
     max-width: 1024px;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
+    gap: 40px;
 }
 
 .container-imagem img {
@@ -22,10 +21,8 @@
 }
 
 .container-info {
-    padding: 20px;
-    height: 250px;
+    padding: 0px 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 1px solid #c9c4c4;
+    justify-content: space-around;
 }
