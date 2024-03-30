@@ -161,8 +161,13 @@
 
 /* Parallax 5 */
 .container__parallax5 {
+    padding: 100px 20px;
     background-image: url(img/cafeteria.jpg);
-    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container__parallax5 h2 {
@@ -206,37 +211,26 @@ iframe {
     text-align: center;
 }
 
-/* Atendimento */
 .atendimento {
+    width: 100%;
     max-width: 768px;
-    position: absolute;
-    margin: 0 auto;
-    bottom: 20%;
-    right: 0;
-    left: 0;
-    font-family: var(--fonte2);
-    list-style: none;
 }
 
 .atendimento li {
-    position: relative;
-}
-
-.atendimento li h3 {
-    margin-bottom: 20px;
-    color: var(--cor1);
+    list-style: none;
+    margin-bottom: 15px;
 }
 
 .atendimento li div {
-    width: 70%;
     height: 1px;
-    position: absolute;
-    margin: 0 auto;
-    top: 50%;
-    right: 0;
-    left: 0;
     background-color: var(--cor4);
 }
+    
+
+.atendimento li h3 {
+    color: var(--cor1);
+}
+
 
 .atendimento li p, .atendimento__destaque {
     position: absolute;
