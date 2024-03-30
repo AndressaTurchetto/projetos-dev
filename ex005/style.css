@@ -3,81 +3,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .topo {
-    width: 100%;
-    padding: 15px 0px;
-    text-align: center;
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
 }
 
 .topo span {
-    color: #3cbd87;
-    font-size: 18px;
+  color: #3cbd87;
+  font-size: 18px;
 }
 
 .main {
-    background-color: #f0f0f0;
-    padding: 50px 20px;
-    display: flex;
-    justify-content: center;
+  background-color: #f0f0f0;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
 }
 
-.container {  
-    max-width: 1024px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 40px;
+.container {
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
 }
 
 .card-produto {
-    border-radius: 4px;
-    flex-grow: 1 1 300px;
-    box-shadow: 1px 1px 10px 1px gray;
+  flex: 1 1 300px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px 1px gray;
 }
 
 .container-img {
-    height: 250px;
-    border: 1px solid red;
+  height: 200px;
 }
 
 .container-imagem img {
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
 }
 
 .container-info {
-    padding: 0px 10px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  padding: 0px 10px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .container-info h3 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-.container-preço {
-    padding: 10px;
-    border-top: 1px solid #c9c4c4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container-preco {
+  padding: 10px;
+  border-top: 1px solid #c9c4c4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container-icone {
-    padding: 5px;
-    border: 1px solid #c9c4c4;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
+  padding: 5px;
+  border: 1px solid #c9c4c4;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
-
