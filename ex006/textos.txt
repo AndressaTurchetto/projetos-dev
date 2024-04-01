@@ -1,17 +1,8 @@
-Sobre
-Rota
-Quartos
+
 
 Pousada Secreta
 A pousada reservada em Angra dos Reis
 
-Seja bem-vindo(a)!
-Relaxe em nossas acomodações e curta o melhor de Angra dos Reis.
-Temos quartos para solteiro, casal ou família.
-
-Quarto de Solteiro
-Quarto de Casal
-Quarto Família
 
 Rota
 Veja como chegar até a pousada.
@@ -41,50 +32,7 @@ Cel: 5521000000000
 Faça sua reserva pelo Booking.com
 © Copyright - PousadaDev
 
-______________________________________________________________
-
-Quartos - Pousada Secreta
-
-Pousada Secreta
-Sobre
-Rota
-Quartos
-
-Quartos de solteiro
-Conheça os nossos quartos de solteiro.
-
-Informações sobre o quarto:
-TV de tela plana a cabo.
-Cozinha compacta.
-Área para refeições.
-Ar-condicionado.
-1 ou 2 camas de solteiro.
-Não permite cancelamento.
-
-
-Quarto de casal
-Conheça nossos quartos de casal.
-
-
-Informações sobre o quarto:
-TV de tela plana a cabo.
-Cozinha compacta.
-Área para refeições.
-Ar-condicionado.
-1 cama de casal.
-Cancelamento grátis.
-
-
-Quarto família
-Conheça nossos quartos família.
-
-Informações sobre o quarto:
-TV de tela plana a cabo.
-Cozinha compacta.
-Área para refeições.
-Ar-condicionado.
-1 cama de casal e 1 de solteiro.
-Cancelamento grátis.
+_____________________________________________________________
 
 Entre em contato conosco:
 Endereço Av. 123, 222 - Rio de Janeiro RJ
