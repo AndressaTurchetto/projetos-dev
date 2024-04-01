@@ -34,7 +34,6 @@ p {
     gap: 15px;
     flex-basis: 200px;
     padding: 5px;
-
 }
 
 .endereco, .contato, .horarios {
@@ -45,13 +44,14 @@ p {
 }
 
 .btn-voltar img {
-    width: 30px;
+    width: 40px;
 }
 
 .redes-sociais img {
-    width: 15px;
+    width: 25px;
 }
 
 .footer {
-
+    display: flex;
+    justify-content: space-evenly
 }
