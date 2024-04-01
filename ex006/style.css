@@ -2,14 +2,23 @@
 
 :root {
     --cor1: #fff;
-    --cor2: #f00;
-    --cor-borda: #000;
+    --cor2:  #f1f1f1;
+    --cor3: #6592c9;
+    --cor4: #3b7863;
+    --cor5: #49997d;
+    --cor6: #00836a;
+    --cor7: #0a9077b3;
+    --cor8: #333;
+    --cor9:  #3d3d3d;
+    --cor10: #000;
+    --cor11: #f00;
+    
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -17,5 +26,6 @@
 header {
     margin-bottom: 1px solid var(--cor-borda);
     padding: 30px;
-    background-size: cover;
+    flex-direction: row;
+    display: flex;
 }
