@@ -3,73 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontes -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap
     ">
-    <title>Quartos</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-quartos.css">
+    <title>Quartos - Pousada Secreta</title>
 </head>
 <body>
-    <header>
-        <a href="pousada.html">Pousada <span>Secreta</span></a>
-        <a href="pousada.html" id="sobre">Sobre</a>
-        <a href="pousada.html" id="rota">Rota</a>
-        <a href="quartos.html">Quartos</a>
+    <!-- Topo da página -->
+    <header> 
+        <div class="container-topo limicar-secao">
+            <div class="container-logo">
+                <a href="pousada.html">Pousada <span>Secreta</span></a>
+            </div>
+            <menu class="container-links">
+                <a class="link-topo" href="#sobre">SOBRE</a>
+                <a class="link-topo" href="#rota">ROTA</a>
+                <a class="link-topo" href="quartos.html">QUARTOS</a>
+            </menu>
+        </div>
     </header>
-    <main>
-        <div class="container-descricao">
-            <h1>QUARTOS DE SOLTEIRO</h1>
-            <p>Conheça os nossos quartos de solteiro.</p>
-            <div class="container-imagens">
+
+    <div class="conteudo-principal">
+        <div class="banner banner-quartos"></div>
+        <div id="solteiro" class="container-conteudo limitar-secao">
+            <div class="container-descricao">
+                <h2>Quartos de solteiro</h2>
+                <p>Conheça os nossos quartos de solteiro.</p>
+            </div>
+
+            <div class="container-quartos">
                 <img src="img/quarto-solteiro1.jpg" alt="Primeira Imagem">
                 <img src="img/quarto-solteiro2.jpg" alt="Segunda Imagem">
                 <img src="img/quarto-solteiro3.jpg" alt="Terceira imagem">
             </div>
-            <h2>Informações sobre o quarto: </h2>
-            <ul>
-                <li>TV de tela plana a cabo.</li>
-                <li>Cozinha compacta.</li>
-                <li>Área para refeições.</li>
-                <li>Ar-condicionado.</li>
-                <li>1 ou 2 camas de solteiro.</li>
-                <li>Não permite cancelamento.</li>
-            </ul>
+
+            <div class="container-informacoes">
+                <h3>Informações sobre o quarto:</h3>
+                <ul class="lista-informacoes">
+                    <li>TV de tela plana a cabo.</li>
+                    <li>Cozinha compacta.</li>
+                    <li>Área para refeições.</li>
+                    <li>Ar-condicionado.</li>
+                    <li>1 ou 2 camas de solteiro.</li>
+                    <li>Não permite cancelamento.</li>
+                </ul>
+            </div>
         </div>
-        <div class="container-descricao">
-            <h1>QUARTO DE CASAL</h1>
-            <p>Conheça nossos quartos de casal.</p>
-            <div class="container-imagens">
-                <img src="img/quarto-casal1.jpg" alt="Primeira Imagem">
+
+        <div id="casal" class="container-conteudo limitar-secao">
+            <div class="container-descricao">
+                <h2>Quarto de casal</h2>
+                <p>Conheça nossos quartos de casal.</p>
+            </div>
+
+                
+            <div class="container-quartos">  
+                <img src="img/quarto-casal1.jpg" alt="Primeira Imagem">   
                 <img src="img/quarto-casal2.jpg" alt="Segunda Imagem">
                 <img src="img/quarto-casal3.jpg" alt="Terceira Imagem">
             </div>
-            <h2>Informações sobre o quarto:</h2>
-            <ul>
-                <li>TV de tela plana a cabo.</li>
-                <li>Cozinha compacta.</li>
-                <li>Área para refeições.</li>
-                <li>Ar-condicionado.</li>
-                <li>1 cama de casal.</li>
-                <li>Cancelamento grátis.</li>
-            </ul>
+
+            <div class="container-informacoes">
+                <h3>Informações sobre o quarto</h3>
+                <ul class="lista-informacoes">
+                    <li>TV de tela plana a cabo.</li>
+                    <li>Cozinha compacta.</li>
+                    <li>Área para refeições.</li>
+                    <li>Ar-condicionado.</li>
+                    <li>1 cama de casal.</li>
+                    <li>Cancelamento grátis.</li>
+                </ul>
+            </div>
         </div>
-        <div class="container-descricao">
-            <h1>QUARTO FAMÍLIA</h1>
-            <p>Conheça nossos quartos família.</p>
-            <div class="container-imagens">
+
+        <div id="familia" class="container-conteudo limitar-secao">
+            <div class="container-descricao">
+                <h2>Quarto família</h2>
+                <p>Conheça nossos quartos família.</p>
+            </div>
+
+            <div class="container-quartos">
                 <img src="img/quarto-familia1.jpg" alt="Primeira Imagem">
                 <img src="img/quarto-familia2.jpg" alt="Segunda Imagem">
                 <img src="img/quarto-familia3.jpg" alt="Terceira Imagem">
             </div>
-            <h2>Informações sobre o quarto:</h2>
-            <ul>
-                <li>TV de tela plana a cabo.</li>
-                <li>Cozinha compacta.</li>
-                <li>Área para refeições.</li>
-                <li>Ar-condicionado.</li>
-                <li>1 cama de casal e 1 de solteiro.</li>
-                <li>Cancelamento grátis.</li>
-            </ul>
-        </div>
 
-    </main>
+            <div class="container-informacoes">
+                <h3>Informações sobre o quarto:</h3>
+                <ul class="lista-informacoes">
+                    <li>TV de tela plana a cabo.</li>
+                    <li>Cozinha compacta.</li>
+                    <li>Área para refeições.</li>
+                    <li>Ar-condicionado.</li>
+                    <li>1 cama de casal e 1 de solteiro.</li>
+                    <li>Cancelamento grátis.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="rodape">
+        <div class="container-info limitar-secao">
+            <div class="card-info-rodape">
+                <h4>Entre em contato conosco:</h4>
+            </div>
+            <div class="card-info-rodape">
+                <a href="https://goo.gl/maps/wPAS58QxiTopxK6w7" target="_blank">
+                    <img src="icones/endereco.png" alt="Ícone endereço" title="Ícone endereço">
+                    <p>Endereço Av. 123, 222 - Rio de Janeiro RJ</p>
+                </a>
+            </div>
+
+            <div class="card-info-rodape">
+                <img src="icones/telefone.png" alt="Ícone telefone" title="Ícone telefone ">
+                <p>Cel: 552100000000</p>
+            </div>
+
+            <div class="card-info-rodape">
+                <a href="https://www.booking.com/searchresults.pt-br.html?aid=375635;label=msn-wLZ0m4wRNI00wFHQAaaO3w-79920787059858%3Atikwd-79920803013016%3Aaud-808219487%3Aloc-20%3Aneo%3Amte%3Adec%3Aqsbooking;sid=9ca5cbe6c9db71b34b98c0738ea780f4;dest_id=-666610;dest_type=city&" target="_blank">
+                    <img src="icones/calendario.png" alt="Ícone calendário" title="Ícone calendário">
+                    <p>Faça sua reserva pelo Booking.com</p>
+                </a>
+            </div>
+        </div>
+        <div class="container-copright">© Copyright - PousadaDev - Desenvolvido por Andressa Turchetto</div>
+    </footer>
 </body>
 </html>
