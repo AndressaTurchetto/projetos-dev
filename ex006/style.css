@@ -152,3 +152,20 @@ header {
     padding: 0px;
 }
 
+/* Estilização Cards */
+
+.container-cards {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    flex: 1 0 350px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
