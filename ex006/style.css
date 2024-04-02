@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Configurações gerais */
+/* Cores */
 
 :root {
     --cor1: #fff;
@@ -16,6 +16,8 @@
     --cor11: #f00;    
 }
 
+/* Configurações Gerais */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +31,7 @@
     margin: 0 auto;
 }
 
-/* Configurações Cabeçalho */
+/* Estilização do Cabeçalho */
 
 header {
     width: 100%;
@@ -72,6 +74,7 @@ header {
     justify-content: space-between; /*Separar os links de acesso*/
 }
 
+/* Estilização do Conteúdo Principal */
 .banner {
     background-image: url(img/img-fundo.jpg);
     width: 100%;
@@ -152,7 +155,7 @@ header {
     padding: 0px;
 }
 
-/* Estilização Cards */
+/* Estilização dos Cards */
 
 .container-cards {
     max-width: 1024px;
@@ -193,4 +196,45 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* Estilização do Footer */
+.rodape {
+    background-color: var(--cor5);
+    color: var(--cor1);
+}
+
+.container-info {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card-info-rodape h4 {
+    font-size: 22px;
+}
+
+.card-info-rodape a {
+    display: flex;
+    align-items: center;
+    color: var(--cor1);
+    text-decoration: none;
+}
+
+.card-info-rodape p {
+    margin-left: 10px;
+}
+
+.card-info-rodape img {
+    width: 40px;
+    height: 40px;
+}
+
+.container-coprigth {
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-top: 1px solid var(--cor4);
 }
