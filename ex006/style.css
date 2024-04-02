@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Configurações gerais */
+
 :root {
     --cor1: #fff;
     --cor2:  #f1f1f1;
@@ -11,21 +13,42 @@
     --cor8: #333;
     --cor9:  #3d3d3d;
     --cor10: #000;
-    --cor11: #f00;
-    
+    --cor11: #f00;    
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    display: flex;
-    flex-direction: column;
+    box-sizing: border-box;
 }
 
+.limitar-secao {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Configurações Cabeçalho */
+
 header {
+    width: 100%;
+    position: fixed;
+    background-color: var(--cor1);
     margin-bottom: 1px solid var(--cor-borda);
     padding: 30px;
     flex-direction: row;
     display: flex;
+    font-size: 18px;
+}
+
+
+
+.container-topo a {
+    text-decoration: none;
+    color: var(--cor10);
+}
+
+.container-topo a span {
+    color: var(--cor3);
 }
