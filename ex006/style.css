@@ -90,4 +90,65 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    padding: 40px 20px;
+    font-size: 28px;
+    color: var(--cor1);
+    background-color: var(--cor7);
+    border: 1px solid var(--cor1);
+    border-radius: 4px;
+    text-align: center;
 }
+
+.container-conteudo {
+    display: flex;
+    flex-direction: column;
+    grid-area: 60px;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.container-conteudo h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.container-descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-descricao h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.container-quartos {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.quarto {
+    flex: 1 0 250px;
+    text-decoration: none;
+    color: var(--cor9);
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--cor6);
+}
+
+.quarto img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.quarto a {
+    text-decoration: none;
+    color: var(--cor8);
+}
+
+#rota {
+    padding: 0px;
+}
+
