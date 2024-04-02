@@ -36,19 +36,58 @@ header {
     position: fixed;
     background-color: var(--cor1);
     margin-bottom: 1px solid var(--cor-borda);
-    padding: 30px;
     flex-direction: row;
-    display: flex;
     font-size: 18px;
 }
 
+.container-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*Separar a logo dos links*/
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
 
+.container-logo {
+    flex: 1 0 60%;
+}
+
+.container-logo a {
+    font-size: 24px;
+}
 
 .container-topo a {
     text-decoration: none;
-    color: var(--cor10);
+    color: var(--9);
 }
 
 .container-topo a span {
     color: var(--cor3);
+}
+
+.container-links {
+    flex: 1 0 150px;
+    display: flex;
+    justify-content: space-between; /*Separar os links de acesso*/
+}
+
+.banner {
+    background-image: url(img/img-fundo.jpg);
+    width: 100%;
+    height: 100vh;
+    padding: 0 20px;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
