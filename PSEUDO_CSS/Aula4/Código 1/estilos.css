@@ -1,0 +1,32 @@
+* {margin: 0;padding: 0;}
+
+body {font-family: Arial;}
+
+header {width: 100%;height: 42px;display: flex;justify-content: center;align-items: center;background: #007a09;color: #fff;}
+
+h1 {margin: 0 0 25px 0;text-align: center;}
+
+img:first-of-type {
+    width: 100%;
+    border: 7px solid #28bbff;
+    box-sizing: border-box;
+}
+
+span {width: 100%;display: block;background: yellow;padding: 10px;margin: -5px 0 0 0;box-sizing: border-box;text-align: center;}
+
+.secao-galeria {width: 100%;max-width: 1024px;margin: 20px auto;}
+
+p {line-height: 28px;margin: 0 0 25px 0;}
+
+.secao-galeria img {width: calc((100% / 3) - 3px);box-sizing: border-box;}
+
+footer {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #007a09;
+    color: #fff;
+}
+

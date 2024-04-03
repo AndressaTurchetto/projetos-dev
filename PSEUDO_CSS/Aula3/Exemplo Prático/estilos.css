@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5700cb;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 90px;
+}
+
+.titulo-logo {
+    margin: 0 10px;
+}
+
+.logo-destaque {
+    font-weight: bold;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.limita-area {
+    max-width: 1024px;
+}
+
+h1,h2 {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 25px;
+}
+
+.banner {
+    width: 100%;
+}
+
+p {
+    line-height: 32px;
+}
+
+.quem-somos p:last-of-type {
+    display: inline;
+    background: #9154e3;
+    padding: 10px 5px;
+}
+
+table {
+    width: 100%;
+    margin: 25px 0;
+    background: #dfdfdf;
+}
+
+thead {
+    background: #5a5a5a;
+}
+
+th,td {
+    padding: 6px;
+    color: #fff;
+}
+
+tbody tr:nth-of-type(odd) {
+    background: #5700cb;
+}
+
+tbody tr:nth-of-type(even) {
+    background: #9154e3;
+}
+
+

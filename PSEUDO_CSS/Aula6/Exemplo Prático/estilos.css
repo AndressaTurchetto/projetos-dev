@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e62429;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.titulo-logo {
+    margin: 0 10px;     
+}
+
+section {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 32px 0 0 0;
+}
+
+.destaque {
+    display: flex;
+    margin: 32px 0 0 0;
+}
+
+figure {
+    width: calc((100% / 3) - 3px);
+    margin: 0 3px;
+}
+
+img {
+    width: 100%;
+}
+
+figure::after {
+    content: "Propriedade da Marvel™";
+    width: 100%;
+    height: 32px;
+    color: #fff;
+    background: #e62429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    line-height: 32px;
+    margin: 25px 0 0 0;
+}
+
+ul {
+    margin: 25px 0 25px 0;
+    line-height: 32px;
+    list-style: none;
+}
+
+li, a {
+    display: flex;
+    align-items: center;
+}
+
+a::before {
+    content: "";
+    width: 20px;
+    height: 20px;   
+    background-image: url("img/link.png");
+    margin: 0 6px 0 0;
+}
+

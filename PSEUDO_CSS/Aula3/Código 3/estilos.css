@@ -1,0 +1,7 @@
+div:nth-of-type(odd) {
+    background-color: #eb6565;
+}
+
+div:nth-of-type(even) {
+    background-color: #60c4ff;
+}

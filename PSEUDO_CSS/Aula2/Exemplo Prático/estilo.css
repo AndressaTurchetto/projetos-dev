@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imagem-capa {
+    width: 100%;
+}
+
+header, footer {
+    width: 100%;
+    height: 42px;
+    font-size: 22px;
+    color: #fff;
+    background: #1b0fdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;margin: 15px 0;
+}
+
+section {
+    width: 100%;
+    padding: 0 25px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0 0 15px 0;
+}
+
+.imagens-jogos img {
+    width: calc((100% - 9px) / 3);
+    box-sizing: border-box;
+}
+
+.imagens-jogos img:hover {
+    border: 3px solid #1b0fdf;
+}
+
+ul {
+    margin: 0 20px;
+}
+
+a {
+    color: #1b0fdf;
+}
+
+a:visited {
+    color: #00894a;
+}

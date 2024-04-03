@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0ea6ed;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.titulo-logo {
+    margin: 0 10px;     
+    font-weight: bold;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 25px 0 0px 0;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 0 0;
+}
+
+article {
+    text-align: center;
+}
+
+section {
+    max-width: 950px;
+    margin: 32px auto;
+}
+
+p::first-letter {
+    font-size: 24px;
+}
+
+section::first-line {
+    font-style: italic;
+}
+
+p {
+    line-height: 32px;
+}
+

@@ -1,0 +1,15 @@
+* {margin: 0;padding: 0;}
+
+body {font-family: Arial;}
+
+ul {
+    margin: 25px 45px;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
